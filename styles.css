@@ -176,13 +176,14 @@ nav .menu li a {
   margin-top: 44px;
   display: flex;
   gap: 24px;
+  /* border: 1px solid red; */
 }
 
 .card-box .card {
   max-width: 322px;
-  height: 300px;
+  /* height: 300px; */
   background-color: #ffffff;
-  padding: 24px 24px;
+  padding: 24px 24px 0px;
   border-radius: 8px;
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.06);
   /* text-align: center; */
@@ -207,6 +208,7 @@ nav .menu li a {
   font-size: 24px;
   font-weight: 600;
   color: #001931;
+  text-align: center;
 }
 
 .card-box .card p{
@@ -217,3 +219,104 @@ nav .menu li a {
   color: #627382;
 }
 
+#solution{
+  /* border: 1px solid rebeccapurple; */
+  margin-top: 0px;
+}
+
+#solution .solution-container{
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+  display: flex;
+  gap: 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.solution-container .solution-image img{
+  height: 600px;
+  max-width: 600px;
+}
+
+.solution-container .right-section{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.right-section h3{
+  color: #469165;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.right-section h1{
+  font-size: 48px;
+  font-weight: 700;
+  color: #001931;
+  margin-top: 16px;
+}
+
+.right-section .solution-text > p{
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+ margin-top: 16px;
+}
+
+/* .solution-container .check-lists{
+   margin-top: 16px;
+} */
+
+.solution-container .check{
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.check > p{
+  color: #001931;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+ #early-access{
+  padding: 120px;
+
+} 
+
+#early-access .early-access-container{
+  width: 85%;
+  max-width: 1360px;
+  padding: 80px 40px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #F7F6F2;
+}
+
+.early-access-container h1{
+  font-size: 40px;
+  color: #001931;
+}
+
+.early-access-container p{
+  margin-top: 16px;
+  color: #627382;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.early-access-container .access-btn{
+  margin-top: 24px;
+}
+
+.early-access-container .early-access-text{
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  margin-top: 16px;
+}
