@@ -320,3 +320,35 @@ nav .menu li a {
   color: #627382;
   margin-top: 16px;
 }
+
+footer{
+  margin-top: 120px;
+}
+
+#footer{
+  background-color: #001931;
+  padding: 120px 120px 30px;
+}
+
+#footer hr {
+  border: none;
+  height: 1px;
+  background-color: white;
+  width: 1360px;
+  opacity: 0.2;
+}
+
+#footer p{
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FAFAFA;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+#footer .logo-links{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
