@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* shared styles */
+
+html,
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.btn {
+  background-color: #469165;
+  padding: 12px 16px;
+  border-radius: 4px;
+  color: #ffffff;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.btn:hover {
+  background-color: #306d4b;
+  transition: all;
+  transition-duration: 400ms;
+}
+
+/* shared styles */
+
+header nav {
+  padding: 16px 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav .menu {
+  display: flex;
+  gap: 32px;
+}
+
+nav .menu li {
+  list-style: none;
+}
+
+nav .menu li a {
+  color: #000000;
+  opacity: 0.9;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+#hero {
+  background: url("./assets/hero-bg.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 1600px;
+  height: 674px;
+  /* border: 1px solid rgb(127, 9, 78); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#hero .hero-content {
+  /* border: 1px solid blue; */
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 70px 120px 134px;
+}
+
+.early-access-btn {
+  padding: 8px 12px;
+  color: #469165;
+  text-align: center;
+  border-radius: 50px;
+  border: none;
+  font-size: 16px;
+}
+
+/* #hero .hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+#hero .hero-content h1 {
+  margin: 16px auto 0 auto;
+  max-width: 770px;
+  font-size: 72px;
+  line-height: 84px;
+  font-weight: 700;
+  text-align: center;
+  /* border: 1px solid blue; */
+  color: white;
+}
+
+#hero .hero-content h1 span {
+  color: #30b868;
+}
+
+#hero .hero-text p {
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 16px;
+  max-width: 770px;
+  text-align: center;
+  color: white;
+  margin-inline: auto;
+  text-align: center;
+  /* border: 1px solid blue; */
+}
+
+#hero .hero-button {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+#hero .hero-button .tranparent-btn {
+  padding: 12px 16px;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: 4px;
+}
+
