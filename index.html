@@ -10,6 +10,13 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -30,7 +37,12 @@
       <section id="hero">
         <div class="hero-content">
           <div class="hero-text">
-            <button class="early-access-btn">Early Access Now Open</button>
+            <button class="early-access-btn">
+              <div class="status-dot">
+                <div class="dot"></div>
+              </div>
+              <span>Early Access Now Open</span>
+            </button>
 
             <h1>
               Structured thinking,
@@ -43,8 +55,18 @@
             </p>
           </div>
           <div class="hero-button">
-            <button class="btn">Start Building Your Vault</button>
-            <button class="tranparent-btn">See How It Works</button>
+            <button class="btn">
+              Start Building Your Vault
+              <span>
+                <img src="./assets/ArrowRight.png" alt="" />
+              </span>
+            </button>
+            <button class="tranparent-btn">
+              <span class="icon">
+                <i class="fa-solid fa-play"></i>
+              </span>
+              <span class="text">See How It Works</span>
+            </button>
           </div>
         </div>
       </section>
@@ -139,10 +161,14 @@
         <h1>Ready to think more clearly?</h1>
         <p>
           Join thousands of learners who are building their personal knowledge
-          vaults. <br>Start free, no credit card required.
+          vaults. <br />Start free, no credit card required.
         </p>
         <div class="access-btn">
-          <button class="btn">Get Early Access</button>
+          <button class="btn">
+            Get Early Access<span
+              ><img src="./assets/ArrowRight.png" alt=""
+            /></span>
+          </button>
         </div>
         <p class="early-access-text">
           Free during early access <span>•</span> No credit card needed
@@ -153,17 +179,17 @@
     <footer>
       <div id="footer">
         <div class="logo-links">
-          <img src="./assets/logo-footer.png" alt="">
+          <img src="./assets/logo-footer.png" alt="" />
           <div class="links">
             <h4>Social Links</h4>
-            <div>
-              <a href=""></a>
-              <a href=""></a>
-              <a href=""></a>
+            <div class="links-icon">
+              <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
             </div>
           </div>
         </div>
-        <hr>
+        <hr />
         <p>© 2026 Personal Knowledge Vault. All rights reserved.</p>
       </div>
     </footer>
